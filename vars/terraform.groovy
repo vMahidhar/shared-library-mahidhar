@@ -24,9 +24,7 @@ def call(Map config = [:]){
                     deleteDirs: true,
                     disableDeferredWipeout: true,
                     cleanWhenSuccess: true,
-                    notFailBuild: true,
-                    patterns: [[pattern: '.gitignore', type: 'INCLUDE'],
-                               [pattern: '.propsfile', type: 'EXCLUDE']])
+                    notFailBuild: true)
         }
     }
     }
